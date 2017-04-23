@@ -1,0 +1,17 @@
+{% extends "admin/adminbase.html" %}
+{% block content %}
+<h2>Editar um post</h2>
+Status: {% if statusMessage is not null %}{{ statusMessage }}{% endif %}
+</br>
+<form method="post">
+  <input type="submit" value="Deletar" name="deleteMe">
+</form>
+<form method="post">
+  Título: <input type="text" name="title" value="{{ editingPost.title }}">
+<br>
+ <textarea id="markdownContent" name="markdown" rows="4" cols="50">
+{{ editingPost.markdownContent }}
+</textarea> 
+<input type="submit" value="Submit">
+</form> 
+{% endblock %}

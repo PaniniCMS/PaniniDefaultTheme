@@ -1,0 +1,76 @@
+#loginBox {
+	background-color: white;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 15px;
+	text-align: center;
+	border-bottom: solid #ccc;
+}
+
+#loginBox h1 {
+	font-family: "Pacifico";
+	font-size: 5em;
+	color: rgb(255, 165, 190);
+	text-shadow: 2px 2px 0px #0000004d, 2px 2px 0px #ffa5be;
+	line-height: 0;
+}
+
+.paniniTitle {
+	font-family: "Pacifico";
+	font-size: 5em;
+	color: rgb(255, 165, 190);
+	text-shadow: 2px 2px 0px #0000004d, 2px 2px 0px #ffa5be;
+	line-height: 1.5;
+}
+
+.websiteUrl {
+	font-family: "Pacifico";
+	font-size: 1.5em;
+	color: rgb(255, 165, 190);
+	text-shadow: 2px 2px 0px #0000004d, 2px 2px 0px #ffa5be;
+	line-height: 1.5;
+}
+
+html {
+	background-image: initial;
+	background-color: rgb(40, 43, 48);
+	color: #586069;
+	font-size: 14px;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#leftSidebar {
+	width: 25%;
+	float: left;
+	color: white;
+	text-align: center;
+}
+
+#rightSidebar {
+	background-color: white;
+	width: 75%;
+	float: right;
+}
+
+.options {
+	background-color: rgb(46, 49, 54);
+	width: 90%;
+	border-radius: 15px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+}
+
+#adminHeader {
+	text-align: center;
+}
+
+body {
+margin: 0;
+}
